@@ -1,0 +1,13 @@
+[package]
+name = "rust-api-skeleton"
+version = "0.1.0"
+authors = ["David Torres Dias <dtorresdias@karnott.fr>"]
+edition = "2018"
+
+[dependencies]
+env_logger = "0.6.1"
+chrono = "0.4"
+clap = {version = "2.33", features = ["yaml"]}
+log = "0.4"
+iron = "*"
+router = "0.6.0"
